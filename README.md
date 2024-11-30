@@ -113,6 +113,7 @@ User options are available from the "ESC" in-game settings menu :<br/><img src="
 - **ResourceLockActions** [KSP 1.8.0 - 1.12.5]<br/>Add part actions for locking/unlocking resources flow state.
 - [**BetterEditorUndoRedo**](https://github.com/KSPModdingLibs/KSPCommunityFixes/issues/172) [KSP 1.12.3 - 1.12.5]<br/>Invert the editor undo state capturing logic so part tweaks aren't lost when undoing.  NOTE: this patch is disabled when TweakScale/L is installed.
 - [**OptionalMakingHistoryDLCFeatures**](https://github.com/KSPModdingLibs/KSPCommunityFixes/issues/218) [KSP 1.12.3 - 1.12.5]<br/>Allow to disable the Making History DLC mission editor and additional launch sites features to decrease memory usage and increase loading speed. The Making History parts will still be available. Can be toggled from the KSPCF in-game settings (requires a restart), or from a MM patch (see `Settings.cfg`).
+- **EncounterVelocityAndAngle** [KSP 1.8.0 - 1.12.5]<br/>Add display of encounter/ejection velocity and angle to prograde to patched conic encounter and ejection tooltips.
 
 #### Performance tweaks 
 
