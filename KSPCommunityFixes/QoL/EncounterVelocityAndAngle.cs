@@ -1,9 +1,12 @@
-﻿using KSP.UI.Screens.Mapview;
+﻿using System;
+using KSP.UI.Screens.Mapview;
 
 namespace KSPCommunityFixes.QoL
 {
     class EncounterVelocityAndAngle : BasePatch
     {
+        protected override Version VersionMin => new Version(1, 8, 0);
+
         protected override void ApplyPatches()
         {
             AddPatch(PatchType.Postfix, typeof(PatchRendering), nameof(PatchRendering.mnEnd_OnUpdateCaption));
